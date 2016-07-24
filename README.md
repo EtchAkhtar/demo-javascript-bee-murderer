@@ -8,6 +8,8 @@ A simple game to show how OOP works in JavaScript.
 
 ---
 
+[View Live Demo](http://www.etchakhtar.com/apps/javascript-bee-murderer/index.html)
+
 ![Screenshot](readme/screenshot.png?raw=true)
 
 ## Code Discussion
