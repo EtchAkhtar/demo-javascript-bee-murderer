@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+		<title>Bee Murderer</title>
+		<link href="assets/css/main.css" type="text/css" rel="stylesheet" />
+	</head>
+    <body>
+
+		<div id="gameContainer">
+			<h1>Bee Murdering Game</h1>
+			<p>
+				This is a simple game to show how to use JavaScript objects.
+			</p>
+			<h2>Rules</h2>
+			<ul>
+				<li>There are 3 types of bees.  Queen, Worker and Drone.  Each have a different lifespan.</li>
+				<li>When you hit a bee, they lose some years and are closer to dying.  The impact a hit has is different per bee.</li>
+				<li>When all the bees die, the game is reset.</li>
+				<li>When the queen bee dies, all bees die.</li>
+				<li>Let's kills some bees ....</li>
+			</ul>
+
+			<div id="wrapper">
+		    	<button class="myButton" onclick="hit();">Hit a Bee</button>
+
+				<div id="beeTableContainer">
+					<table>
+						<thead>
+							<tr>
+								<th>Type</th>
+								<th>Lifespan</th>
+							</tr>
+						</thead>
+						<tbody id="beeTableBody">
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+
+		<script defer type="text/javascript" src="assets/js/jquery.min.js"></script>
+		<script defer type="text/javascript" src="assets/js/main.js"></script>
+
+	</body>
+</html>
